@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+ background-color: rgba(128, 128, 128, 0.051);
+}
+
+.div1{
+    width: 300px;
+    height: 70px;
+    top: 10px;
+   background-color:gainsboro ; 
+   position: absolute;
+   animation-name: change;
+  animation-duration: 3s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+  /* animation-direction:reverse; */
+  /* animation-delay: 3s; */
+  background:-moz-radial-gradient(50% 50% ,rgba(230, 242, 255, 1), rgba(128, 179, 255, 1) ,rgba(0, 62, 186, 0.588));
+}
+
+
+.div2{
+    width: 300px;
+    height: 70px;
+    top:90px;
+   background-color:gainsboro ; 
+   position: absolute;
+   animation-name: change;
+  animation-duration: 3s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+  animation-direction:reverse;
+  animation-delay: 3s;
+  background:-moz-radial-gradient(50% 50% ,rgba(230, 242, 255, 1), rgba(128, 179, 255, 1) ,rgba(0, 62, 186, 0.588));
+}
+
+
+.div3{
+    width: 300px;
+    height: 70px;
+    top: 170px;
+   background-color:gainsboro ; 
+   position: absolute;
+   animation-name: change;
+  animation-duration: 3s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+  /* animation-direction:reverse; */
+  animation-delay: 6s;
+  background:-moz-radial-gradient(50% 50% ,rgba(230, 242, 255, 1), rgba(128, 179, 255, 1) ,rgba(0, 62, 186, 0.588));
+}
+
+.div4{
+    width: 300px;
+    height: 70px;
+    top: 250px;
+   background-color:gainsboro ; 
+   position: absolute;
+   animation-name: change;
+  animation-duration: 3s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+  animation-direction:reverse;
+  animation-delay: 9s;
+  background:-moz-radial-gradient(50% 50% ,rgba(230, 242, 255, 1), rgba(128, 179, 255, 1) ,rgba(0, 62, 186, 0.588));
+}
+
+
+.div5{
+    width: 300px;
+    height: 70px;
+    top: 330px;
+   background-color:gainsboro ; 
+   position: absolute;
+   animation-name: change;
+  animation-duration: 3s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+  /* animation-direction:reverse; */
+  animation-delay: 12s;
+  background:-moz-radial-gradient(50% 50% ,rgba(230, 242, 255, 1), rgba(128, 179, 255, 1) ,rgba(0, 62, 186, 0.588));
+}
+
+
+.div6{
+    width: 300px;
+    height: 70px;
+    top: 410px;
+   background-color:gainsboro ; 
+   position: absolute;
+   animation-name: change;
+  animation-duration: 3s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+  animation-direction:reverse;
+  animation-delay: 15s;
+  background:-moz-radial-gradient(50% 50% ,rgba(230, 242, 255, 1), rgba(128, 179, 255, 1) ,rgba(0, 62, 186, 0.588));
+
+}
+
+.div7{
+    width: 300px;
+    height: 70px;
+    top: 490px;
+   background-color:gainsboro ; 
+   position: absolute;
+   animation-name: change;
+  animation-duration: 3s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+  /* animation-direction:reverse; */
+  animation-delay: 18s;
+  background:-moz-radial-gradient(50% 50% ,rgba(230, 242, 255, 1), rgba(128, 179, 255, 1) ,rgba(0, 62, 186, 0.588));
+}
+
+
+.div8{
+    width: 300px;
+    height: 70px;
+    top: 570px;
+   background-color:gainsboro ; 
+   position: absolute;
+   animation-name: change;
+  animation-duration: 3s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+  animation-direction:reverse;
+  animation-delay: 21s;
+  background:-moz-radial-gradient(50% 50% ,rgba(230, 242, 255, 1), rgba(128, 179, 255, 1) ,rgba(0, 62, 186, 0.588));
+}
+
+@keyframes change{
+    0%{
+        left: 0;
+        color: beige;
+    }
+    100%{
+        left:1235px ;
+
+    }
+}
